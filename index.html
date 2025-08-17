@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mascot Page | Hack Club Swirl Project</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-purple-900 via-black to-blue-900 text-white min-h-screen flex flex-col">
+  <!-- Navbar -->
+  <header class="p-6 flex justify-between items-center bg-black/40 backdrop-blur-md">
+    <h1 class="text-2xl font-bold">🐾 Mascot Page</h1>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="#about" class="hover:text-purple-400">About</a></li>
+        <li><a href="#gallery" class="hover:text-purple-400">Gallery</a></li>
+        <li><a href="#community" class="hover:text-purple-400">Community</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="flex-1 flex flex-col items-center justify-center text-center px-6">
+    <h2 class="text-4xl md:text-6xl font-extrabold mb-4">Meet Orphy ✨</h2>
+    <p class="max-w-2xl text-lg text-gray-300">
+      Orphy is the friendly mascot of this Hack Club Swirl project.  
+      They represent curiosity, creativity, and the spirit of building together.
+    </p>
+    <img src="mascot.png" alt="Mascot" class="mt-8 w-48 h-48 object-contain drop-shadow-2xl">
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="px-8 py-16 bg-black/30 backdrop-blur-md">
+    <h3 class="text-3xl font-bold mb-6">🌟 About Orphy</h3>
+    <p class="text-gray-300 leading-relaxed max-w-3xl">
+      Orphy was created as part of a Hack Club Swirl project to bring more personality and fun into coding spaces.
+      With big dreams and endless curiosity, Orphy symbolizes the joy of tinkering, experimenting, and sharing ideas with the community.
+    </p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="px-8 py-16">
+    <h3 class="text-3xl font-bold mb-8">📸 Gallery</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <img src="gallery1.png" alt="Mascot pose 1" class="rounded-2xl shadow-lg">
+      <img src="gallery2.png" alt="Mascot pose 2" class="rounded-2xl shadow-lg">
+      <img src="gallery3.png" alt="Mascot pose 3" class="rounded-2xl shadow-lg">
+    </div>
+  </section>
+
+  <!-- Community Section -->
+  <section id="community" class="px-8 py-16 bg-black/30 backdrop-blur-md">
+    <h3 class="text-3xl font-bold mb-6">🤝 Community</h3>
+    <p class="text-gray-300 max-w-3xl">
+      This project is open-source and part of the Hack Club Swirl ecosystem.  
+      You can join the fun, contribute new art, or help Orphy grow by visiting our GitHub repo.
+    </p>
+    <a href="https://hackclub.com" target="_blank" class="inline-block mt-6 bg-purple-600 hover:bg-purple-500 px-6 py-3 rounded-xl font-semibold shadow-lg">
+      Join Hack Club
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-6 text-center text-gray-400 text-sm bg-black/40 backdrop-blur-md">
+    Built with ❤️ by Joel as a Hack Club Swirl project.
+  </footer>
+</body>
+</html>
